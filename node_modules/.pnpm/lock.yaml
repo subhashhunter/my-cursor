@@ -1,0 +1,40 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      node-cmd:
+        specifier: ^5.0.0
+        version: 5.0.0
+      openai:
+        specifier: ^5.1.1
+        version: 5.1.1
+
+packages:
+
+  node-cmd@5.0.0:
+    resolution: {integrity: sha512-4sQTJmsS5uZKAPz/Df9fnIbmvOySfGdW+UreH4X5NcAOOpKjaE+K5wf4ehNBbZVPo0vQ36RkRnhhsXXJAT+Syw==}
+    engines: {node: '>=6.4.0'}
+
+  openai@5.1.1:
+    resolution: {integrity: sha512-lgIdLqvpLpz8xPUKcEIV6ml+by74mbSBz8zv/AHHebtLn/WdpH4kdXT3/Q5uUKDHg3vHV/z9+G9wZINRX6rkDg==}
+    hasBin: true
+    peerDependencies:
+      ws: ^8.18.0
+      zod: ^3.23.8
+    peerDependenciesMeta:
+      ws:
+        optional: true
+      zod:
+        optional: true
+
+snapshots:
+
+  node-cmd@5.0.0: {}
+
+  openai@5.1.1: {}
