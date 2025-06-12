@@ -79,7 +79,7 @@ async function init() {
         }
     ];
 
-    const user_query = "First create a folder named PORTFOLIO in current directory and then create a portfolio applocation using html,css and js inside that folder which must be completely running"
+    const user_query = "First create a folder named WEATHER in current directory and then create a weather applocation using html,css and js inside that folder which must be completely running"
     messages.push({ role: 'user', content: user_query });
 
     while (true) {
